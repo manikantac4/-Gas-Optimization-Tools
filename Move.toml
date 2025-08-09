@@ -1,0 +1,15 @@
+[package]
+name = "gas_optimization"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ADD="0xba76f0ef7e916eb664c49bd040fbc93f2909448c00a4ecd1b32140f0dfa7a6ba"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
